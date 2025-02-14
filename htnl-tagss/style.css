@@ -1,0 +1,106 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+
+
+h3 {
+    color: rgb(98, 115, 127);
+}
+
+#garchig1 {
+    color: rgb(183, 33, 78);
+}
+
+
+.garchig {
+    color: blue;
+
+
+}
+
+p {
+    color: cornflowerblue;
+
+}
+
+#one {
+    color: chartreuse;
+}
+
+;
+
+#two {
+    color: cornflowerblue;
+}
+
+
+#three {
+    color: crimson;
+}
+
+
+#four {
+    color: violet;
+}
+
+.negcolor {background-color: blue;
+
+}
+
+div p{background-color: aquamarine;
+
+}
+
+ul, ol {color:cyan;
+
+}
+
+.unit {
+    
+    background-color: teal; 
+    width: 50%; 
+    height: 200;
+    font-size: 2em;
+
+
+}
+
+
+
+
+.container { 
+    background-color:rgb(20, 123, 51);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding-top: 150px;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    box-sizing:border-box;
+    border-radius: 100%;
+text-align: center;
+
+
+
+
+
+}
+
+.container2 { 
+    background-color:rgb(78, 9, 55);
+    width: 200px;
+    height: 200px;
+margin: 40px;
+box-sizing: border-box;
+
+
+
+}
+

@@ -1,0 +1,78 @@
+.body {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+}
+
+.solarsystem {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+}
+
+.milkyway {
+  background-color: transparent;
+  border-radius: 100%;
+  border: white solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.milkywayline__neptune {
+  height: 600px;
+  width: 600px;
+}
+.milkywayline__uranus {
+  height: 500px;
+  width: 500px;
+}
+.milkywayline__saturn {
+  height: 400px;
+  width: 400px;
+}
+
+.planet {
+  display: flex;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  justify-content: end;
+  align-items: center;
+}
+.sun {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  right: 350px;
+}
+
+.neptune {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  right: 110px;
+  animation: neptune__rotate 3s linear infinite;
+  /* animation: neptune__move 4s linear infinite; */
+}
+
+@keyframes neptune__rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* @keyframes neptune__move {
+  25% {
+    transform: translate(100px 0px);
+  }
+  50% {
+    transform: translate(100);
+  }
+} */
