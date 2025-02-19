@@ -201,3 +201,62 @@ console.log("Bodlogo-4: hariu:", min + "min" + sec + "sec");
     hour = Math.floor(minute / 60);
 
     console.log("Bodlogo-5: hariu", hour + "hour" + minute + "min" + second + "sec")
+
+    //6 bodlogo
+
+    let totalS6ec = 88;
+    let totalM6in = 875;
+    let s6ec = 0;
+
+    
+   s6ec = (totalM6in * 60)
+
+   console.log("Bodlogo-6: ugugdsun",totalM6in, "min", totalS6ec, "sec" , "iig sec bolgo")
+   console.log("Bodlogo-6: hariu", s6ec + totalS6ec + "sec")
+
+   // 7 bodlogo
+
+
+   let totalH7our = 83;
+   let totalM7in = 84;
+   let s7ec = 85;
+   
+
+   m7in = 60 ;
+   h7our = 60 * 60 ;
+   totalS7ec = (totalH7our * h7our) + (totalM7in * m7in) + s7ec
+
+
+   console.log ("Bodlogo-7: ugugdsun tsag min sec iig sec bolgo", totalH7our, "hour", totalM7in, "min", totalS7ec, "sec")
+   console.log ("Bodlogo-7: hariu", totalS7ec + "sec")
+   
+
+   // 1jil 2 udur 3 tsag 4minute 4 second g second ruu shiljuul 
+
+   let niit8Jil = 1;
+   let niit8udur= 2;
+   let niit8tsag = 3;
+   let niit8minute = 4;
+
+   let j8il = 365*24*60*60;
+   let u8dur = 24*60*60;
+   let ts8ag = 60*60;
+   let m8inute = 60;
+   let s8econd= 4 ;
+
+   total8second = (j8il * niit8Jil) + (u8dur * niit8udur) + (ts8ag * niit8tsag) + (m8inute * niit8minute) + s8econd
+
+   console.log ("Bodlogo 7-1: /zohioson/ 1jil 2udur 3 tsag 4minute 4 second g second ruu shiljuul")
+   console.log ("Zohioson bodlogo hariu:", total8second + "seconds" )
+
+   // 310000 second g tsag second ruu shiljuul 
+
+   let xtotalsec = 310000 ;
+   let xsec = 0 ;
+    let xtsag= 0 ;
+
+    xsec = xtotalsec % 3600;
+    xtsag = Math.floor (xtotalsec / 3600);
+
+    console.log ("bodlogo7-2 zohioson", xtotalsec , "Sec" , "g tsag second ruu shiljuul")
+    console.log (xtsag + "tsag" + xsec + "sec")
