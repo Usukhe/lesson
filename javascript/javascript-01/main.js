@@ -249,14 +249,202 @@ console.log("Bodlogo-4: hariu:", min + "min" + sec + "sec");
    console.log ("Bodlogo 7-1: /zohioson/ 1jil 2udur 3 tsag 4minute 4 second g second ruu shiljuul")
    console.log ("Zohioson bodlogo hariu:", total8second + "seconds" )
 
-   // 310000 second g tsag second ruu shiljuul 
+  
+   // bodlogo 2-1 
 
-   let xtotalsec = 310000 ;
-   let xsec = 0 ;
-    let xtsag= 0 ;
+   let q1too = 3;
+   let q2too = 2;
+   let q3too = 11;
+   let q4too = 7;
 
-    xsec = xtotalsec % 3600;
-    xtsag = Math.floor (xtotalsec / 3600);
+console.log ("Bodlogo 2-1: Tegsh sondgoig ol 3,2,11,7 ")
+   // console.log ( "Tegsh too", q2too,)
+   // console.log ( "Sondgoi too", q1too, q3too , q4too)
 
-    console.log ("bodlogo7-2 zohioson", xtotalsec , "Sec" , "g tsag second ruu shiljuul")
-    console.log (xtsag + "tsag" + xsec + "sec")
+   if (q1too % 2 === 0) { q1too === 'Tegsh too'; } 
+   else { q1too === 'Sondgoi too' }
+
+   if (q2too % 2 === 0) { q2too === 'Tegsh too'; } 
+   else { q2too === 'Sondgoi too' }
+
+   if (q3too % 2 === 0) { q3too === 'Tegsh too'; } 
+   else  { q3too === 'Sondgoi too' }
+
+   if (q4too % 2 === 0) { q4too === 'Tegsh too'; } 
+   else  { q4too === 'Sondgoi too' }
+   
+   console.log("Bodlogo 2-1", q1too, q2too, q3too, q4too);
+
+// bodlogo 2-2
+console.log ("Bodlogo 2-2 ogogdsn 3 toonii bagiig ol (9,3,2)")
+
+   let w1too = 9;
+   let w2too = 3;
+   let w3too = 2;
+
+   if (w1too < w2too && w1too < w3too ) {
+   w1too = 'hamgiin baga too';
+   }
+   else if ( w2too > w3too )
+      w3too = 'hamgiin baga too';
+
+   console.log ( w1too, w2too, w3too )
+
+
+   // bodlogo 2-3
+   console.log ("Bodlogo 2-3 ogogdsn 3 toonii ixiig ol (7,1,12)")
+
+
+   let e1too = 7;
+   let e2too = 1;
+   let e3too = 12;
+
+   if (e1too > e2too && e1too > e3too) {
+      console .log (e1too , 'hamgiin ix too')
+   }
+   else if ( e2too > e3too && e2too > e1too )
+      console .log (e2too , 'hamgiin ix too')
+   else if ( e3too > e2too && e3too > e1too)
+      console .log (e3too , 'hamgiin ix too')
+
+  
+
+  
+   
+   // bodlogo 2-4
+   
+   console.log ("Bodlogo 2-4 ogogdsn 3toonii 5 aas baga toonuudin urjveriig ol (2 9 4")
+
+   let r1too = 2;
+   let r2too = 9;
+   let r3too = 4;
+
+   let rtoourjver = 0;
+      
+   if (r1too >= 5) 
+      r1too = 1 ;
+
+    if (r2too >= 5) 
+      r2too = 1 ;
+
+    if (r3too >= 5) 
+      r3too = 1 ;
+
+ (rtoourjver = r1too * r2too * r3too)
+
+console.log ("tavaas baga toonii urjver hariu:", rtoourjver  )
+   
+// bodlogo 2-5 
+
+console.log ("Bodlogo 2-5 ogogdsntoonii 5aas ix toonuudin urjveriig ol (11,9,4,3)")
+   
+let t1too = 11;
+let t2too = 9;
+let t3too = 4;
+let t4too = 3;
+ 
+let ttoourjver = 0;
+
+if (t1too <= 5)
+   t1too = 1 ;
+
+if (t2too <= 5)
+   t2too = 1 ;
+
+if (t3too <= 5)
+   t3too = 1 ;
+
+if (t4too <= 5)
+   t4too = 1 ;
+
+ttoourjver = t1too * t2too * t3too * t4too
+
+console.log ("hariu 5aas ix toonuudin urjver:", ttoourjver)
+
+
+// bodlogo 2-6
+
+console.log ("bodlogo 2-6 ogogdsn sar ali uliral ve")
+
+let qsar = 2;
+
+
+if (qsar === 12 || qsar === 1 || qsar === 2) {
+  console.log("uvliin uliral baina"); 
+}
+else if (qsar === 3 || qsar === 4 || qsar === 5) {
+   console.log("havriin uliral baina.")
+}
+else if (qsar === 6 || qsar === 7 || qsar === 8) {
+   console.log("zunii uliral baina.")
+}
+else if (qsar === 9 || qsar === 10 || qsar === 11) {
+   console.log("namriin uliral baina.")
+} else {
+   console.log("tanii oruulsn sariin too buruu baina.")
+}
+   
+
+
+
+//   console.log (t1too, t2too , t3too ,t5too )
+//   console.log ("hariu 5aas ix toonuudin urjver:", ttoourjver)
+
+
+// bodlogo 2-7
+
+console.log ("bodlogo 2-7 shalgaltiin dung dugne")
+
+
+
+
+let nams = ["bat", "ochir"];
+let dun = [67, 59];
+
+for (let i = 0; i <2; i++) {
+
+   if (dun[i] < 60 ) {
+      console.log("Name: ", nams[i] )
+      console.log("mash muu")
+   }
+   else if (dun[i] >= 60 && dun[i] < 70) {
+      console.log("Name; ", nams[i])
+      console.log("hangalttai")
+   }
+   else if (dun[i] >= 70 && dun[i] < 80) {
+      console.log("dund")
+   }
+   else if (dun[i] >= 80 && dun[i] < 90) {
+      console.log("sain")
+   }
+   else if (dun[i] >= 90 && dun[i] < 100) {
+      console.log("hangalttai")
+   }
+   else {
+      console.log ("buruu dun")
+   }
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+ 
+
+
+     
+
+
+
