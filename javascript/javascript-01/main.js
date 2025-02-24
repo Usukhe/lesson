@@ -473,7 +473,7 @@ for (xx = 1 ; xx <= 200; xx++) {
 //     too++;
 
 
-//bodlogo 3-5
+// bodlogo 3-5
 
 console.log ("bodlogo 3-4 n-200 ugugdsun tonuudin sondgoi toonii niilber");
 
@@ -484,31 +484,7 @@ for (zz = 1 ; zz <= 200 ; zz++) {
    if (zz % 2 === 1)
       zzniilber = zz + zzniilber;
 }
-console.log ("hariu", zzniilber)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log ("hariu", zzniilber);
 
 
 // bodlogo 3-6
@@ -521,8 +497,12 @@ let ccsondgoitsipr = 0;
 for (cc = 1 ; cc <= 147 ; cc++){
    if (cc % 2 === 1);
    ccsondgoitsipr = cc + ccsondgoitsipr
+};
 
-} 
+
+
+
+
 
 
 
