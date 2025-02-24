@@ -233,9 +233,9 @@ console.log("Bodlogo-4: hariu:", min + "min" + sec + "sec");
 
    // 1jil 2 udur 3 tsag 4minute 4 second g second ruu shiljuul 
 
-   let niit8Jil = 1;
-   let niit8udur= 2;
-   let niit8tsag = 3;
+   let niit8Jil = 3;
+   let niit8udur= 16;
+   let niit8tsag = 20;
    let niit8minute = 4;
 
    let j8il = 365*24*60*60;
@@ -426,7 +426,103 @@ for (let i = 0; i <2; i++) {
 
 }
 
- 
+//  bodlogo 3-1
+
+console.log ("bodlogo 3-1 1-100 hurtelh toonii tegsh toog hevle");
+
+
+console.log("hariu" )
+for (let v = 1; v <= 100; v++ ) {
+   if (v % 2 === 0) {
+      console.log("tegsh too:", v )
+   }
+}
+
+// bodlogo 3-2
+
+console.log ("bodlogo 3-2 1-100 hurtelh toonii sondgoi toog hevle");
+
+console.log("hariu")
+for (let vv = 1; vv<=100; vv++ ) {
+   if (vv % 2 === 1) {
+      console.log("sondgoi too:", vv)
+   }
+}
+
+// bodlogo 3-4
+
+console.log ("bodlogo 3-3 n=200 ugugdsn toonuudin tegsh toonii urjver");
+
+let xx = 1;
+let xxurjver = 1;
+
+for (xx = 1 ; xx <= 200; xx++) {
+   if (xx % 2 === 0)
+   xxurjver = xxurjver * xx;
+
+   }
+   console.log ("hariu:", xxurjver)
+
+     // 1-10 hurtelh tooni niilber bodow
+
+// let niilber = 0;   
+// let too = 1;
+
+// while(too < 10){
+//     niilber = niilber + too;
+//     too++;
+
+
+//bodlogo 3-5
+
+console.log ("bodlogo 3-4 n-200 ugugdsun tonuudin sondgoi toonii niilber");
+
+let zz = 1;
+let zzniilber =0;
+
+for (zz = 1 ; zz <= 200 ; zz++) {
+   if (zz % 2 === 1)
+      zzniilber = zz + zzniilber;
+}
+console.log ("hariu", zzniilber)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bodlogo 3-6
+
+console.log ("bodlogo 3-6 ugugdsun too hurtel heden sondgoi tsipr baugaag ol", "n=148")
+
+let cc = 1;
+let ccsondgoitsipr = 0;
+
+for (cc = 1 ; cc <= 147 ; cc++){
+   if (cc % 2 === 1);
+   ccsondgoitsipr = cc + ccsondgoitsipr
+
+} 
 
 
 
