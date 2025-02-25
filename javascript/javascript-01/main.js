@@ -491,13 +491,13 @@ console.log ("hariu", zzniilber);
 
 console.log ("bodlogo 3-6 ugugdsun too hurtel heden sondgoi tsipr baugaag ol", "n=148")
 
-let cc = 1;
+let ccsondgoitsiprniilbe = 0;
 let ccsondgoitsipr = 0;
 
-for (cc = 1 ; cc <= 147 ; cc++){
-   if (cc % 2 === 1);
-   ccsondgoitsipr = cc + ccsondgoitsipr
-};
+for (let index = 0 ; index <=148 ; index ++)
+
+
+   
 
 
 

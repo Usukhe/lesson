@@ -38,6 +38,8 @@ console.log("Бодлого 3-6")
 
 let digit = 0;
 let odd = 0;
+
+
 let x = 0;
 for (i=1; i <= 148; i++){
 x = i

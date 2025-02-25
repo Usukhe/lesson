@@ -72,7 +72,7 @@ let students = [
         for (let index = 0; index < students.length; index++) {
             if (students[index].gender === 'male' ) {
                 male++;
-            } else if (students[index].gender === 'female') {
+            } else {
                 female++
             }
         }
@@ -105,12 +105,12 @@ console.log("3.Сурагчдын дундаж нас: ", sumStudentsAge);
 // 4.
 
 let adultStudent = [];
-let a = 0 ;
+// let a = 0 ;
 
 for (let index = 0; index < students.length; index++) {
     if (students[index].age >= 21) {
-      adultStudent[a] = students[index].name;
-      a++;
+      adultStudent[index] = students[index].name;
+      
     }
     
 }
@@ -164,23 +164,81 @@ console.log("niilber:", sumPoint);
 
 // 7. Зохиомол бодлого дээрх Массиваас  эмэгтэй сурагчдын нэрс болон оноо
 
-let FemaleStudents = [] ;
+let femaleStudents = [] ;
 let m = 0 ;
 
-let FemaleStudentsPoints = [] ;
-let x = 0 ;
+
 
 
 for (let index = 0 ; index < students.length ; index++) {
-  if (students[index].gender = 'Female') {
-    FemaleStudents [m] = students[index].name; 
+  if (students[index].gender = 'Female' && students[index].age >=21) {
+    femaleStudents[m] = students[index]; 
     m++ ;
-
-    FemaleStudentsPoints [x] = students[index].points; 
-    x++ 
-
   }
 }
 
-console.log ("эмэгтэй сурагчдын нэрс болон оноо:", FemaleStudents,  FemaleStudentsPoints);
+console.log ("эмэгтэй сурагчдын нэрс болон оноо:", femaleStudents );
+
+
+
+
+// console.log("=========================")
+// console.log("Бодлого 3-5")
+// let urj1 = 1;
+// for (i=1; i<=200; i++){
+//     if(i%2 !== 0){
+//         urj1 = urj1 * i
+//     }
+// }
+
+let n = 5 ; 
+let hurd = 0
+
+for (let u = 1 ;  u <= 10 ; u++ ) {
+
+hurd = n * u
+
+ 
+console.log ("answer", n, "*", u, "=" , hurd,) ;
+}
+
+
+let arr = [2,3,5,8,3]; 
+const x = 3;
+let similar = 0;
+
+for (let index = 0 ; index < arr.length ; index ++) {
+  if ( arr [index] === x) {
+    similar++
+  }
+}
+
+// console.log ("x too heden udaa orsn:" , similar)
+
+
+
+
+
+// array g esreg bolgo
+
+let r = [4 , 5, 6 ,7, 8];
+let rreverse = [];
+
+let j = 0;
+
+
+for ( let i = r.length - 1; i >= 0 ; i --){
+  rreverse[j] = r[i];
+  j++;
+  
+}
+
+console.log ("reverse:", rreverse)
+
+
+
+
+
+
+
 
