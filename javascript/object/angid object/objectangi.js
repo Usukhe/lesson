@@ -23,6 +23,19 @@ let products = [
   // 6. Өгөгдсөн бүтээгдэхүүний хамгийн их тоо ширхэгтэй бүтээгдэхүүнийг хэвлэ
   // 7. Өгөгдсөн бүтээгдэхүүний 5-аас доош үлдсэн бүтээгдэхүүнүүдийг жагсаах
   // 8. Өгөгдсөн бүтээгдэхүүн дотор X бүтээгдэхүүн  байгаа эсэхийг шаалга байвал мэдээллийг нь хэвлэ
+
+
+const printName = (list) => {
+    for ( let i = 0 ; i < list.length; i++) {
+        console.log(list[i].name);
+    }
+}; 
+// printName(products);
+
+// print gsnee name g ooroor ogch bolox ym bn function deer sn anhaar  
+
+
+
   
   // 1. 
 
