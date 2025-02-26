@@ -162,7 +162,7 @@ for ( let index = 0 ; index < students.length; index++) {
 
 console.log("niilber:", sumPoint);
 
-// 7. Зохиомол бодлого дээрх Массиваас  эмэгтэй сурагчдын нэрс болон оноо
+// 7. Зохиомол бодлого дээрх Массиваас эмэгтэй сурагчдын нэрс болон оноо
 
 let femaleStudents = [] ;
 let m = 0 ;
@@ -213,10 +213,7 @@ for (let index = 0 ; index < arr.length ; index ++) {
   }
 }
 
-// console.log ("x too heden udaa orsn:" , similar)
-
-
-
+console.log ("x too heden udaa orsn:" , similar)
 
 
 // array g esreg bolgo
@@ -234,9 +231,6 @@ for ( let i = r.length - 1; i >= 0 ; i --){
 }
 
 console.log ("reverse:", rreverse)
-
-
-
 
 
 
