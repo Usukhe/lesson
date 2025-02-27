@@ -25,12 +25,20 @@ let products = [
   // 8. Өгөгдсөн бүтээгдэхүүн дотор X бүтээгдэхүүн  байгаа эсэхийг шаалга байвал мэдээллийг нь хэвлэ
 
 
-const printName = (list) => {
-    for ( let i = 0 ; i < list.length; i++) {
-        console.log(list[i].name);
+const printName = (products) => {
+    for ( let i = 0 ; i < products.length; i++) {
+        console.log(products[i].name);
     }
 }; 
-// printName(products);
+    printName(products);
+
+
+    // 2.
+
+    
+
+
+
 
 // print gsnee name g ooroor ogch bolox ym bn function deer sn anhaar  
 
